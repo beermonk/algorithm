@@ -32,6 +32,8 @@ int main()
 
     std::cout << "队列头部元素为:" << q.front() << std::endl;  // 返回队列头部元素
     std::cout << "队列尾部元素为:" << q.back() << std::endl;  // 返回队列尾部元素
+    q.pop(); // 弹出队列头部元素
+    std:: cout << "队列中的元素个数:" << q.size() << std::endl;  // 获取队列中元素的个数
 
 }
 
