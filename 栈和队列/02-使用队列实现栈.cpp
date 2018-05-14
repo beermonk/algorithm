@@ -49,6 +49,7 @@ public:
     int top()
     {
         int res = data.front();
+        return res;
     }
 
     /**
