@@ -4,4 +4,4 @@ project(algorithm)
 set(CMAKE_CXX_STANDARD 11)
 
 add_executable(algorithm
-       栈和队列/01-栈和队列基础.cpp)
+        图算法/01-课程安排.cpp)
