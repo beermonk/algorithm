@@ -4,4 +4,5 @@ project(algorithm)
 set(CMAKE_CXX_STANDARD 11)
 
 add_executable(algorithm
-        图算法/01-课程安排.cpp)
+        字符串/08-最小窗口子串.cpp
+        动态规划/01-爬楼梯.cpp)
