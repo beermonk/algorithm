@@ -30,9 +30,10 @@ class Solution {
         void midOrder1(TreeNode *root)
         {
             std::stack<TreeNode*> stack;
+
             while (!stack.empty() || root != NULL) {
                 if (root != NULL) {
-                    stack.push(root);
+                    stack.push(root);  // 不停的把左子树压入栈中
                     root = root->left;
                 }
                 else {
